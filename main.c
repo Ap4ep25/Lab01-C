@@ -2,73 +2,26 @@
 #include <math.h>
 
 int main() {
+    double x, a, G, F, Y;
+    printf("Введите x:");
+    scanf("%lf", &x);
+    printf("Введите a:");
+    scanf("%lf", &a);
+    G = (-10*(18*pow(a,2)+11*a*x-24*pow(x,2)))/(-pow(a,2)+a*x+6*pow(x,2));
+    printf("G=%f\n\n", G);
+
+    printf("Введите x:");
+    scanf("%lf", &x);
+    printf("Введите a:");
+    scanf("%lf", &a);
+    F = cosh(21*pow(a,2)-34*a*x+9*pow(x,2));
+    printf ("F=%f\n\n", F);
+
+    printf("Введите x:");
+    scanf("%lf", &x);
+    printf("Введите a:");
+    scanf("%lf", &a);
+    Y = log(3*pow(a,2)-25*a*x+8*pow(x,2)+1)/log(10);
+    printf("Y=%f\n\n", Y);
     return 0;
 }
-
-5 == 5
-9 == var1
-var1 == 9
-=<
->=
-!=
->
-<
-- истина = 0_false False_
-- ложь = 0_true True_
-Pascal, Python       (var1 == 9) and (var2 != 1)
-                                  or
-  c    (var1 == 9) && (var2 != 1)
-                   ||
-C if, switch
-Python if
-
-if (var1 == 9) && (a > 5) || (b < 7))
-{
-doSomeSeriousStuff(); // true истина
-var1 += 2;
-}
-else {
-var1 += 1;   // :))
-////
-printf("privet");
-}
-var1 = 0;
-if (1)
-    var1 += 1;
-else
-    var1 += 2;
-
-1 2 3 4 5 6
-var1 = 3;
-switch (var1)
-{
-case 0:
-    ///
-    break;
-    case 2:
-    ///
-    break;
-    case 3:
-    ///
-    break;
-    default:
-    printf("Enter 0 1 2 3");
-}
-printf("42");
-
-double result = 5.6890;
-double a = 5.6891;
-result += 0.987;
-
-    ///!!!!!
-if (result != 0.98765)
-    /// true
-else
-    /// false
-
-    ///++++
-
-if (abs(result - a) < eps)
-    ///
-else
-    //
